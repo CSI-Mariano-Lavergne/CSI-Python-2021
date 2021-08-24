@@ -197,19 +197,19 @@ You may update both simultaneously from Visual Studio by selecting.
 
 What is the difference between Git and GitHub?
 
- - Answer:
+ - Answer: Git Hub is the repository and git is what lets you sincronize the local with the repostitory (Git Hub)
 
 What is the difference between a git commit and a git push?
 
- - Answer:
+ - Answer: Commit is what saves the changes to your local machine and the push is what sends it from the local to the repository. 
 
 What is the difference between a pull, and an upstream pull?
 
- - Answer:
+ - Answer: A upstream pull is a pull from the teachers repository to my repository and a normal pull is from my repostory to my local. 
 
 What part of these instructions was unclear or incomplete?
 
- - Answer:
+ - Answer: none
 
 Type down any class notes below this sentence:
 
