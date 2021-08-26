@@ -10,7 +10,7 @@
 
 ### Create a commit merging master into your current branch. `(1pts)`
 
-<br>
+<br> 
 
 ## What is [Markdown](https://www.markdownguide.org/getting-started/)?
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
