@@ -81,9 +81,19 @@ print(f"Computer selected: {computerChoice}")
 Give a python example for each logic operator in the module image.
 
  - Answers:
-   - OR:
-   - AND: 
-   - NOT: 
+   - OR: height = 6
+if(height > 5 or height == 6):
+    print("You are tall")
+   - AND: time = 6
+if(time > 5 and  time < 7):
+    print("The sun is about to go down")
+
+
+   - NOT: grade = 12
+if not (grade < 10):
+    print("You are in 12")
+
+
 
 
 Type down any class notes below this sentence:
