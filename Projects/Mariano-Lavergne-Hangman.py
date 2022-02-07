@@ -126,7 +126,7 @@ def main():
     word = get_word(word_list)
     play (word)
     while input("Again?  (Y/N)").upper() == "Y":
-        wprd = get_word(word_list)
+        word = get_word(word_list)
         play(word)
 
 
