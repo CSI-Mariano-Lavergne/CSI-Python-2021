@@ -1,6 +1,5 @@
-from random import random
+
 import time
-from xxlimited import foo
 import pygame
 import random
 pygame.init()
@@ -13,7 +12,7 @@ orange = (252, 180, 15) #game over
 
 dis_width = 400
 dis_height = 300
-dis=pygame.display.set_mode((400, 300))
+dis=pygame.display.set_mode((dis_width, dis_height))
 
 pygame.display.set_caption("Snake Game by ML")
 game_over =False
@@ -24,6 +23,12 @@ snake_speed = 15
 snake_block = 10
 
 font_style = pygame.font.SysFont(None, 25)
+score_font = pygame.font.SysFont(None, 25)
+
+
+def My_Score(score) :
+    value = score_font.render ("Your Score:" + str(score), True, yellow)
+    dis.blit(value, [0, 0])
 
 def my_snake(snake_block, snake_list):
     for x in snake_list:
@@ -32,6 +37,10 @@ def my_snake(snake_block, snake_list):
 def message(msg, color):
     mesg = font_style.render(msg, True, color)
     dis.blit(mesg, [dis_width/10, dis_height/2])
+
+
+
+
 
 def gameloop():
     game_over = False
@@ -101,6 +110,7 @@ def gameloop():
                 game_close = True
 
         my_snake(snake_block, snake_List)
+        My_Score(length_of_snake -1)
         pygame.display.update()
 
         if x1 == foodx and y1 == foody:
