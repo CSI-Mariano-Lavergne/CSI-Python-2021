@@ -80,13 +80,13 @@ def gameloop():
                 if event.key == pygame.K_a:
                     x1_change = -snake_block
                     y1_change = 0
-                elif event.type == pygame.K_d:
+                elif event.key == pygame.K_d:
                     x1_change = snake_block
                     y1_change = 0
-                elif event.type == pygame.K_w:
+                elif event.key == pygame.K_w:
                     y1_change = -snake_block
                     x1_change = 0
-                elif event.type == pygame.K_s:
+                elif event.key == pygame.K_s:
                     y1_change = snake_block
                     x1_change = 0
 
